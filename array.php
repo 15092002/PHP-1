@@ -29,17 +29,24 @@ echo "<br>";
 echo "Total Kids: " . count($kids); // Berapa panjang array kids 
 echo "<br>";
 echo "<ol>";
-foreach($kids as $name) {
-    echo "<li>$name</li>" ;
-}
+echo "<li> $kids[0] </li>";
+    echo "<li> $kids[1] </li>";
+    echo "<li> $kids[2] </li>";
+    echo "<li> $kids[3] </li>";
+    echo "<li> $kids[4] </li>";
+    echo "<li> $kids[5] </li>";
+
 // Lanjutkan
 echo "</ol>";
 echo "Total Adults: " . count($adults); // Berapa panjang array adults 
 echo "<br>";
 echo "<ol>";
-foreach($adults as $name) {
-    echo "<li> $name</li>";
-}
+echo "<li> $kids[0] </li>";
+    echo "<li> $kids[1] </li>";
+    echo "<li> $kids[2] </li>";
+    echo "<li> $kids[3] </li>";
+    echo "<li> $kids[4] </li>";
+    
 // Lanjutkan
 /* SOAL No 3
 Susun data-data berikut ke dalam bentuk Asosiatif Array didalam Array Multidimensi
